@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 400px;
+        height: 400px;
+        background-color: yellowgreen;
+    }
+
+    @keyframes move {
+        from {
+            width: 400px;
+        }
+
+        to {
+            width: 800px;
+        }
+    }
+
+    @keyframes move1 {
+        from {
+            width: 800px;
+        }
+
+        to {
+            width: 400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="box"></div>
+</body>
+<script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    async function fun(el, times) {
+        return new Promise((resolve, reject) => {
+            $('.box').css('animation', 'move 2s linear')
+            setTimeout(() => { }, 2000)
+
+        })
+    }
+    async function fun2(el, times) {
+        return new Promise((resolve, reject) => {
+            $('.box').css('animation', 'move1 2s linear')
+
+        })
+    }
+    async function fun1() {
+        let a = fun('width', 3000)
+        let b = fun2('width', 3000)
+    }
+    fun1()
+</script>
+
+</html>
