@@ -1,0 +1,264 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #F3F5FE;
+}
+
+.box {
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box3 {
+  width: 98%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box3 .box3-bottom {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+.box .box3 .box3-bottom .box3-bottom-right {
+  flex: 1;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two {
+  width: 60%;
+  height: 100%;
+  list-style: none;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li {
+  margin-top: 30px;
+  margin-right: 20px;
+  float: left;
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #F8F9FE;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li:hover {
+  transform: translate(0, -10px);
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li:nth-child(5) i {
+  color: green;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li:nth-child(6) i {
+  color: green;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li span {
+  color: #666666;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.box .box3 .box3-bottom .box3-bottom-left .ul-two li i {
+  font-style: normal;
+  font-size: 12px;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #ecc7bd;
+  border-radius: 5px;
+  color: red;
+}
+
+.box .box3 .box3-top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .box3 .box3-top p button {
+  width: 70px;
+  height: 30px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.box .box3 .box3-top p button:hover {
+  transform: translate(0, -10px);
+}
+
+.box .box2 {
+  width: 98%;
+  height: 500px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.box .box2 .box2-left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.box .box2 .box2-left .box2-left-bottom {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.box .box2 .box2-left .box2-left-top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .box2 .box2-left .box2-left-top button {
+  width: 70px;
+  height: 30px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.box .box2 .box2-left .box2-left-top button:hover {
+  transform: translate(0, -10px);
+}
+
+.box .box2 .box2-right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box2 .box2-right .box2-right-bottom {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.box .box2 .box2-right .box2-right-top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .box2 .box2-right .box2-right-top button {
+  width: 70px;
+  height: 30px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.box .box2 .box2-right .box2-right-top button:hover {
+  transform: translate(0, -10px);
+}
+
+.box .box1 {
+  width: 98%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.box .box1 h2 {
+  margin-bottom: 20px;
+}
+
+.box .box1 .ul-one {
+  width: 100%;
+  height: 150px;
+  list-style: none;
+}
+
+.box .box1 .ul-one li {
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 200px;
+  height: 120px;
+  background-color: #fff;
+  float: left;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box1 .ul-one li:hover {
+  transform: translate(0, -10px);
+}
+
+.box .box1 .ul-one li:nth-child(2) b {
+  color: #E87253;
+}
+
+.box .box1 .ul-one li:nth-child(3) b {
+  color: #B8E3BC;
+}
+
+.box .box1 .ul-one li:nth-child(4) b {
+  color: #5B91F7;
+}
+
+.box .box1 .ul-one li:nth-child(5) b {
+  color: #EAA157;
+}
+
+.box .box1 .ul-one li:nth-child(6) b {
+  color: #61CBB9;
+}
+
+.box .box1 .ul-one li b {
+  display: block;
+  font-size: 20px;
+  color: #7C84EE;
+  height: 50px;
+  line-height: 50px;
+}
+
+.box .box1 .ul-one li span {
+  font-size: 12px;
+  color: #666666;
+}
+
+.box .box1 .ul-one li p {
+  font-weight: 800;
+  font-size: 18px;
+  height: 30px;
+}
